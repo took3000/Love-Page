@@ -5,7 +5,7 @@
     <!-- Copyright © 2020 by m@mcloc.cn -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>逍逍马儿与肖肖玉儿</title>
+    <title>陈先生与梁女士</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <style>
         html,
@@ -93,10 +93,7 @@
                                 <b id="s"></b> 秒
                             </div>
                         </h3>
-                        <p>
-                            <a id="updatalove" class="btn btn-primary btn-lg" role="button">几行情书</a>
-                            <a id="to_comments" class="btn btn-primary btn-lg" role="button">留个言吧</a>
-                        </p>
+                        
                     </div>
                 </div>
 
@@ -113,13 +110,7 @@
         </div>
     </div>
 
-    <div class="container-fluid" id="comments">
-        <div class="row comment">
-            <div class="col-xs-10 col-sm-10 col-md-6 col-xs-push-1 col-sm-push-1 col-md-push-3">
-                <h2>留言：</h2>
-                <div id="vcomments"></div>
-            </div>
-        </div>
+    
     </div>
 
     <script src="js/jquery-1.11.0.js"></script>
@@ -129,7 +120,7 @@
     <!-- 计时器 -->
     <script>
         function timer() {
-            var start = new Date(2020, 06, 31, 13, 14, 00); // 2020.07.31 13:14:00
+            var start = new Date(2017, 11, 12, 00, 16, 00); // 2020.07.31 13:14:00
             var t = new Date() - start;
             var h = ~~(t / 1000 / 60 / 60 % 24);
             if (h < 10) {
